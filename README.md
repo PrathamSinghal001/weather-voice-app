@@ -41,3 +41,41 @@
 ```bash
 git clone https://github.com/PrathamSinghal001/weather-voice-app.git
 cd weather-voice-app
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+Note - Make sure Python 3.6+ is installed on your machine.
+
+### 3. Run the app
+```bash
+python "Weather Voice App.py"
+```
+Note - Note: The icon image path in the script (PhotoImage(file="...")) must be updated to a valid image on your machine.
+
+---
+
+## 🌐 API Used
+Open-Meteo — A free weather API for non-commercial use.
+(https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m)
+
+---
+
+## 🧠 How It Works
+1. Enter Latitude and Longitude in the input fields.
+2. Click Show Weather to fetch current temperature and wind speed.
+3. The output is displayed on screen and read aloud using the speech engine.
+4. Click Exit to close the application.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+Made with ❤️ by Pratham Singhal
+📫 prathamsinghal0011@gmail.com
