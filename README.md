@@ -12,14 +12,6 @@
 
 ---
 
-## 📸 Preview
-
-> *Simple, elegant, and functional weather app interface with voice-enabled updates.*
-
-![Weather GUI Screenshot](#) <!-- Replace # with actual image URL if you upload a screenshot -->
-
----
-
 ## 🚀 Features
 
 - ✅ Fetch real-time **temperature** and **wind speed** using latitude and longitude.
