@@ -1,24 +1,51 @@
-# Weather Voice App 🌦️
+<h1 align="center">🌤️ Weather Voice App</h1>
+<p align="center">
+  A sleek Python desktop application that gives you real-time weather updates with a voice assistant.
+</p>
 
-A simple Python desktop application to check the current weather (temperature and wind speed) using latitude and longitude. Built using Tkinter for GUI, `requests` for API access, and `pyttsx3` for voice output.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.6%2B-blue?logo=python">
+  <img src="https://img.shields.io/badge/GUI-Tkinter-yellow?logo=windowsterminal">
+  <img src="https://img.shields.io/badge/Speech-pyttsx3-orange?logo=soundcloud">
+  <img src="https://img.shields.io/badge/API-Open--Meteo-green?logo=cloud">
+</p>
 
-## Features
+---
 
-- Input latitude and longitude to get weather data.
-- Displays current temperature and wind speed.
-- Speaks the weather report aloud using text-to-speech.
-- Built-in threading for smooth speech functionality.
-- User-friendly graphical interface.
+## 📸 Preview
 
-## Demo
+> *Simple, elegant, and functional weather app interface with voice-enabled updates.*
 
-![Weather GUI Screenshot](#) *(Insert screenshot here)*
+![Weather GUI Screenshot](#) <!-- Replace # with actual image URL if you upload a screenshot -->
 
-## Getting Started
+---
 
-### Prerequisites
+## 🚀 Features
 
-Make sure you have Python 3 installed. Then install the required packages:
+- ✅ Fetch real-time **temperature** and **wind speed** using latitude and longitude.
+- 🗣️ Get audio feedback with built-in **text-to-speech**.
+- 🎨 User-friendly **Tkinter GUI** interface.
+- ⚡ Smooth performance with **threading** for speech execution.
+- 🌐 Uses the free and reliable **Open-Meteo API**.
+
+---
+
+## 🧰 Tech Stack
+
+| Purpose              | Tool / Library    |
+|----------------------|-------------------|
+| GUI                  | `tkinter`         |
+| Weather API Calls    | `requests`        |
+| Text-to-Speech       | `pyttsx3`         |
+| Multithreading       | `threading`       |
+| System Controls      | `sys`             |
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/PrathamSinghal001/weather-voice-app.git
+cd weather-voice-app
