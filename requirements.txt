@@ -1,0 +1,7 @@
+tkinter
+requests
+pyttsx3
+threading
+sys
+PhotoImage
+tkinter.messagebox
